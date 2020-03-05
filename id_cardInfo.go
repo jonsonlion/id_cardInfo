@@ -287,13 +287,13 @@ func(s *IDCardInfo) GetZodiac() string{
 		return "猪"
 	}
 	if x==3 || x==-9{
-		return "够"
+		return "狗"
 	}
 	if x==4 || x==-8{
 		return "鸡"
 	}
 	if x==5 || x==-7{
-		return "狗"
+		return "猴"
 	}
 	if x==6 || x==-6{
 		return "羊"
